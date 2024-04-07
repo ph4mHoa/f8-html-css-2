@@ -1,0 +1,206 @@
+body {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+}
+.wrapper {
+  background-color: #FFFCF4;
+}
+
+.center {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+/* ====HERO==== */
+.hero {
+  margin: 0 auto 0 auto;
+  padding: 36px 0 65px 0;
+  display: flex;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 50px;
+  padding-top: 44px;
+}
+.logo {
+  width: 85px;
+  height: 34px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 42px;
+  margin-left: auto;
+  margin-right: 70px;
+}
+.item {
+
+}
+.item--active {
+  line-height: 28px;
+  font-weight: 600;
+}
+.item--active::after
+{
+  content: "";
+  display: block;
+  height: 2px;
+  width: 12px;
+  background-color: #000;
+  border-radius: 1px;
+}
+.sign-up {
+
+} 
+.btn {
+  min-width: 144px;
+  border-radius: 24.5px;
+}
+.btn-second {
+  background: #171100;
+  color: #fff
+}
+.menu--btn {
+  line-height: 28px;
+  font-weight: 600;
+  min-height: 50px;
+}
+
+
+/* HERO-CONTENT */
+
+
+.hero--img{
+  flex: 1;
+  position: relative;
+}
+.hero--text{
+  flex: 1;
+  margin-left: 130px;
+  margin-top: 64px;
+}
+.hero--card{
+  display: flex;
+  gap: 14px;
+  flex-direction: column;
+  position: absolute;
+  bottom: 48px;
+  right: -100px;
+  width: 270px;
+  height: 244px;
+  border-radius: 12px;
+  padding: 28px 64px 24px 24px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.course{
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.course--des{
+  display: flex;
+  flex-direction: column;
+}
+.course-icon{
+
+}
+.course-meta{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px; 
+  color: #5F5B53;
+}
+.course-title{
+    font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #171100;
+}
+
+.hero--title{
+  color: #171100;
+  font-family: Sen;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: -1.16px;
+}
+.hero--des{
+  color: #5F5B53;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 22px 0 38px 0;
+}
+.hero--list-button{
+  display: flex;
+  align-items: center;
+}
+.hero--button{
+  width: 180px;
+  height: 64px;
+  border-radius: 32px;
+  color: #FFF;
+  background-color: #FFB900;
+  border-width: 0;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.hero--watch{
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-left: 28px;
+  text-decoration: none;
+  color: #171100;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.hero--btn-play-wrapper{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background-color: #FFFFFF;
+  box-shadow: 1px 1px #00000012;
+}
+.hero--extra{
+  margin-top: 48px;
+}
+.hero--extra-des {
+  color: #5F5B53;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.hero--extra-list{
+  display: flex;
+  gap: 28px;
+  margin-top: 8px;
+}
+.hero--extra-item--hightlight{
+  color: #171100;
+  font-family: Sen;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 54px
+}
+.hero--extra-item{
+  color: #5F5B53;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
