@@ -34,9 +34,13 @@ body {
   gap: 42px;
   margin-left: auto;
   margin-right: 70px;
+  
 }
 .item {
-
+  cursor: pointer; 
+}
+.item:hover {
+  text-shadow:0px 0px 1px #000;
 }
 .item--active {
   line-height: 28px;
@@ -152,6 +156,7 @@ body {
   font-size: 18px;
   font-weight: 600;
   line-height: 30px;
+  cursor: pointer;
 }
 .hero--watch{
   display: flex;
@@ -203,4 +208,124 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+}
+/* LESSION */
+
+.lession-wrapper{}
+.lession{
+  margin: 200px auto;
+  max-width: 1170px;
+  position: relative;
+}
+.lession--text{}
+.lession--title{
+  color: #171100;
+  font-family: Sen;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 48px; /* 126.316% */
+  letter-spacing: -0.76px;
+}
+.lession--des{
+  color: #5F5B53;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  max-width: 458px;
+}
+.lession-btn{
+  display: flex;
+  gap: 18px;
+  position: absolute;
+  top: 42px;
+  right: 0;
+}
+.btn-left{
+
+}
+.btn-right{}
+.btn-left, .btn-right{
+  border: #FFB900 solid 1px;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.btn-left:hover, .btn-right:hover{
+  background-color: #FFB900;
+  cursor: pointer;
+}
+.btn-left:hover > i, .btn-right:hover > i{
+  color:#FFF;
+}
+.btn-left > i, .btn-right > i{
+  line-height: 40px;
+  color: #FFB900;
+}
+.lession--list{
+  margin-top: 55px;
+  display: flex;
+  gap: 30px;
+}
+.lession--card{
+  border: 1px solid #E2DFDA;
+  border-radius: 12px;
+}
+.lession--card-img{
+  border-radius: 12px 12px 0 0;
+}
+.lession--card-info-wrapper{
+  margin: 16px 22px 22px 22px;
+}
+.lession--card-title-wraper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lession--card-title{
+  color: #171100;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+}
+.rating{
+  color: #FEA31B;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.lession--card-des{
+  color: #5F5B53;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+}
+.lession--add-to-cart{
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lession--price{
+  color: #171100;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+}
+.lession--btn{
+  min-width: 118px;
+  min-height: 50px;
+  border-radius: 25px;
+  background-color: #171100;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.lession--btn:hover{
+  background-color: #FFB900;
 }
