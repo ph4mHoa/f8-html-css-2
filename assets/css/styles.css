@@ -329,3 +329,71 @@ body {
 .lession--btn:hover{
   background-color: #FFB900;
 }
+
+/* Testimoial */
+
+.tes-wrapper{
+  background-color: #2E2100;
+}
+.tes{
+  display: flex;
+  justify-content: space-between;
+  padding: 96px 0;
+}
+.tes-info{
+
+}
+.tes-info-avatar{
+  border-radius: 100%;
+}
+.avatar{
+}
+.name{
+  color: #F7F7F7;
+  font-family: Sen;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px; /* 141.667% */
+  margin: 18px 0 4x 0;
+}
+.name-title{
+  color: #BFBCB2;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+}
+.dots{
+  line-height: 6px;
+  margin-top: 28px;
+}
+.dot{
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background-color: #634700;
+  border-radius: 100%;
+  margin-left: 6px;
+}
+.dot:first-child{
+  margin-left: 0;
+}
+.dot--active{
+  background-color: #FFB900;
+}
+.tes-quote{}
+.tes-quote{
+  width: 740px;
+}
+.quote-img{
+  position: relative;
+  right: 30px;
+}
+.quote-content{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 40px; /* 153.846% */
+}
