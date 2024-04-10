@@ -466,6 +466,107 @@ body {
   min-height: 50px;
   border-radius: 26px;
 }
-.feature1-reverse .feature1-img1{
+.feature1-reverse {
+  margin-bottom: 200px;
+}
 
+.feature1-reverse .feature1-img1{
+  padding: 0;
+}
+
+/* BLOG */
+
+.blog-wrapper{
+  background-color: #FFFCF4;
+}
+.blog{
+  padding: 96px 0 96px 0;
+
+}
+.blog--title{
+  color: #130606;
+  text-align: center;
+  font-family: Sen;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 48px; /* 126.316% */
+  letter-spacing: -0.76px;
+}
+.blog--des{
+  color: #696262;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  max-width: 448px;
+  margin: 16px auto 55px auto;
+  /* display: inline-block; */
+
+}
+.blog--cards{
+  display: flex;
+  justify-content: space-between;
+  gap: 30xp;
+}
+.blog--card{
+  border-radius: 12px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+  max-width: 370px;
+  max-height: 467px;
+}
+.blog--card-img{
+  border-radius: 16px 16px 0px 0px;
+}
+.blog--card-wrapper {
+  margin: 20px 20px 28px 20px;
+}
+
+.blog--card-time{
+  color: #5F5B53;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+  padding:0 27px 12px 0px;
+  border-bottom: #E2DFDA solid 1px;
+  display: inline-block;
+  position: relative;
+}
+.blog--card-time::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-right: 4px;
+  border-radius: 100%;
+  background-color: #FFB900;
+}
+.blog--card-titile{
+  color: #171100;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px; /* 175% */
+}
+.blog--card-btn{
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 26px; /* 185.714% */
+  min-width: 118px;
+  min-height: 50px;
+  border: none;
+  margin: 12px 0;
+}
+.blog--card-btn:hover{
+  background: #FFB900;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.blog--dots {
+  text-align: center;
+  margin: 28px 0 0 0;
 }
