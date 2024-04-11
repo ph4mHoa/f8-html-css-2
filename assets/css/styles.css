@@ -570,3 +570,75 @@ body {
   text-align: center;
   margin: 28px 0 0 0;
 }
+
+/* Footer */
+
+.footer-wrapper {
+  background-color: #2E2100;
+}
+.footer{
+  min-width: 1170px;
+  padding: 96px 0 0 0;
+}
+.footer--content-wrapper{
+  display: flex;
+  border-bottom: #59554B solid 1px;
+  padding-bottom: 38px;
+}
+.footer--lession{
+}
+.footer--lession-title{}
+.footer--lession-des, .footer--component-li{
+  color: #BFBCB2;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+}
+.footer--component-title:not([class*="footer--lession-title"]) {
+  width: 130px;
+  padding: 0 0 14px 0;
+  border-bottom: #59554B solid 1px;
+  margin-bottom: 28px;
+}
+.footer--lession-des{
+  margin: 18px 0;
+  width: 267px;
+}
+.footer--lession-icons{
+  color: #fff;
+  display: flex;
+  gap: 18px;
+}
+.footer--component{
+  margin-left: 130px;
+}
+.footer--company{}
+.footer--component-title{
+  color: #FFF;
+  font-family: Sen;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px; /* 141.667% */
+}
+.footer--component-ul{}
+.footer--component-li{
+  margin-top: 12px;
+}
+.footer--component-li span {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 26px; /* 185.714% */
+}
+.footer--copyright{
+  margin: 0 auto;
+  padding: 28px 0;
+  color: #807D74;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+}
